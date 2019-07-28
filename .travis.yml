@@ -1,14 +1,14 @@
-language: c++
+language: cpp
 # Blacklist
 branches:
     only:
         - master
 
-    # Install dependencies
-    addons:
-        apt:
-            packages:
-                - doxygen
+# Install dependencies
+addons:
+    apt:
+        packages:
+            - doxygen
 
 # Build your code e.g. by calling make
 script:
