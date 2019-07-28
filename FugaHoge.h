@@ -13,7 +13,7 @@ namespace doc {
  * FugaHoge class description
  */
 class FugaHoge : public Hoge {
-	int val; /// FugaHoge's value
+	int val; ///< #FugaHoge's internal
 
 public:
 	/**

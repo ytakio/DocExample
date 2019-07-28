@@ -14,7 +14,8 @@ namespace doc {
  * Hoge class description
  */
 class Hoge {
-	int val; /// Hoge's value
+protected:
+	int val; ///< Hoge's internal
 
 public:
 	/**
