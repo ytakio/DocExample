@@ -13,6 +13,7 @@ namespace doc {
  * FugaHoge class description
  */
 class FugaHoge : public Hoge {
+protected:
 	int val; ///< #FugaHoge's internal
 
 public:
