@@ -12,21 +12,17 @@ namespace doc {
  * Hoge class description
  */
 class Hoge {
-	std::string		str;	/// what it'll say
+	int val; /// Hoge's value
 
 public:
 	/**
 	 * @brief constructor title
 	 * constructor description
 	 *
-	 * @param [in] str what it says
+	 * @param [in] val Hoge's value
 	 */
-	Hoge(const std::string &str);
+	Hoge(int val) : val(val) {}
 };
-
-Hoge::Hoge(const std::string &str) noexcept :
-	str{str}
-{}
 
 } // namespace doc
 

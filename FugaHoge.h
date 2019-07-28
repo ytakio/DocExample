@@ -1,6 +1,8 @@
 #ifndef DOC_FUGA_HOGE_H
 #define DOC_FUGA_HOGE_H
 
+#include <string>
+
 #include "Hoge.h"
 
 namespace doc {
@@ -10,21 +12,17 @@ namespace doc {
  * FugaHoge class description
  */
 class FugaHoge : public Hoge {
-	std::string		str;	/// what it'll say again
+	int val; /// FugaHoge's value
 
 public:
 	/**
 	 * @brief constructor title
 	 * constructor description
 	 *
-	 * @param [in] str what it says
+	 * @param [in] val FugaHoge's value
 	 */
-	FugaHoge(const std::string &str);
+	FugaHoge(int val) : Hoge(0), val(val) {}
 };
-
-FugaHoge::FugaHoge(const std::string &str) noexcept :
-	FugaHoge{"Hoge"}
-{}
 
 } // namespace doc
 
