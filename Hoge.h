@@ -3,12 +3,14 @@
 
 /**
  * @brief doc namespace title
+ *
  * doc name space description
  */
 namespace doc {
 
 /**
  * @brief Hoge class title
+ *
  * Hoge class description
  */
 class Hoge {
@@ -17,6 +19,7 @@ class Hoge {
 public:
 	/**
 	 * @brief constructor title
+	 *
 	 * constructor description
 	 *
 	 * @param [in] val Hoge's value

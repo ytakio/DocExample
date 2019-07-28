@@ -9,6 +9,7 @@ namespace doc {
 
 /**
  * @brief FugaHoge class title
+ *
  * FugaHoge class description
  */
 class FugaHoge : public Hoge {
@@ -17,6 +18,7 @@ class FugaHoge : public Hoge {
 public:
 	/**
 	 * @brief constructor title
+	 *
 	 * constructor description
 	 *
 	 * @param [in] val FugaHoge's value
